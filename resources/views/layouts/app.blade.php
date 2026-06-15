@@ -14,7 +14,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="NEODATA">
-    <link rel="apple-touch-icon" href="{{ asset('logo-favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('logo-favicon.png') }}">
 
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.bunny.net">

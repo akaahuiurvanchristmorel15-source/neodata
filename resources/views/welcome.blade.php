@@ -7,7 +7,7 @@
 
     <title>{{ config('app.name', 'NEODATA') }}</title>
     
-    <link rel="manifest" href="{{ asset('manifest.json') }}">
+    <link rel="icon" type="image/png" href="{{ asset('logo-favicon.png') }}">
     <meta name="theme-color" content="#7e0019">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
