@@ -365,7 +365,7 @@
                 {{-- Volume Global --}}
                 <div class="kpi-card">
                     <div class="corner-glow" style="background: radial-gradient(circle, #10b981, transparent);"></div>
-                    <p class="kpi-label text-emerald-400">Volume Global</p>
+                    <p class="kpi-label text-emerald-400">DOCUMENT TOTAL</p>
                     <p class="kpi-value">{{ $totalDocuments }}</p>
                     <p class="kpi-sub">Fichiers archivés au total</p>
                     <div class="kpi-line" style="background: linear-gradient(90deg, #10b981, #34d399);"></div>
@@ -374,7 +374,7 @@
                 {{-- Structure de classement --}}
                 <div class="kpi-card">
                     <div class="corner-glow" style="background: radial-gradient(circle, #a855f7, transparent);"></div>
-                    <p class="kpi-label text-purple-400">Structure de classement</p>
+                    <p class="kpi-label text-purple-400">DOSSIERS ACTIFS</p>
                     <p class="kpi-value">{{ $totalCategories }}</p>
                     <p class="kpi-sub">Dossiers et sous-dossiers actifs</p>
                     <div class="kpi-line" style="background: linear-gradient(90deg, #a855f7, #c084fc);"></div>
