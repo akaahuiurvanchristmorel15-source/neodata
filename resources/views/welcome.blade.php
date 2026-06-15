@@ -906,7 +906,12 @@
                 <nav class="socials" aria-label="Réseaux sociaux">
                     <a href="#" aria-label="Facebook">f</a>
                     <a href="#" aria-label="LinkedIn">in</a>
-                    <a href="https://aka-designstudio.com/Portfolio/" aria-label="Créateurs">Créateur</a>
+                    <a href="https://aka-designstudio.com/Portfolio/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    aria-label="Créateurs">
+                    Créateur
+                    </a>                    
                     <a href="https://ya-consulting.com/" aria-label="ya-consulting.com">yac.com</a>
                 </nav>
             </div>
