@@ -391,7 +391,6 @@
                             Matériel Actif
                         </span>
                     </div>
-                    <p class="kpi-sub">Clés AES-256 opérationnelles</p>
                     <div class="kpi-line" style="background: linear-gradient(90deg, #ff1a40, #ff4d6d);"></div>
                 </div>
 
