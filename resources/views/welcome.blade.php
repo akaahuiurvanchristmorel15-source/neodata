@@ -912,7 +912,7 @@
                     aria-label="Créateurs">
                     Créateur
                     </a>                    
-                    <a href="https://ya-consulting.com/" aria-label="ya-consulting.com">yac.com</a>
+                    <a href="https://ya-consulting.com/" aria-label="ya-consulting.com" target="_blank" rel="noopener noreferrer">yac.com</a>
                 </nav>
             </div>
         </div>
