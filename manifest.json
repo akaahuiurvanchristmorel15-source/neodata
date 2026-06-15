@@ -1,0 +1,174 @@
+{
+    "id": "/managex-laravel/public/",
+    "name": "ManageX - Gestion des Ressources Humaines",
+    "short_name": "ManageX",
+    "description": "Application complète de gestion RH : pointage, congés, tâches, paie, évaluations, messagerie interne et sondages. Simplifiez la gestion de vos employés depuis votre mobile ou ordinateur.",
+    "start_url": "/managex-laravel/public/login",
+    "display": "standalone",
+    "display_override": [
+        "standalone",
+        "minimal-ui"
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#4f46e5",
+    "orientation": "portrait-primary",
+    "scope": "/managex-laravel/public/",
+    "lang": "fr-FR",
+    "dir": "ltr",
+    "iarc_rating_id": "",
+    "prefer_related_applications": false,
+    "categories": [
+        "business",
+        "productivity",
+        "utilities"
+    ],
+    "icons": [
+        {
+            "src": "icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Pointer ma présence",
+            "short_name": "Pointage",
+            "description": "Marquer votre arrivée ou départ",
+            "url": "/managex-laravel/public/employee/presences",
+            "icons": [
+                {
+                    "src": "icons/icon-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Mes tâches",
+            "short_name": "Tâches",
+            "description": "Voir et gérer vos tâches",
+            "url": "/managex-laravel/public/employee/tasks",
+            "icons": [
+                {
+                    "src": "icons/icon-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Mes congés",
+            "short_name": "Congés",
+            "description": "Demander ou consulter vos congés",
+            "url": "/managex-laravel/public/employee/leaves",
+            "icons": [
+                {
+                    "src": "icons/icon-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Messagerie",
+            "short_name": "Messages",
+            "description": "Consulter vos messages",
+            "url": "/managex-laravel/public/employee/messaging",
+            "icons": [
+                {
+                    "src": "icons/icon-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/managex-laravel/public/screenshots/mobile-dashboard.png",
+            "sizes": "1080x1920",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Tableau de bord ManageX - Vue mobile"
+        },
+        {
+            "src": "/managex-laravel/public/screenshots/mobile-tasks.png",
+            "sizes": "1080x1920",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Gestion des tâches - Vue mobile"
+        },
+        {
+            "src": "/managex-laravel/public/screenshots/desktop-dashboard.png",
+            "sizes": "1920x1080",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Tableau de bord ManageX - Vue desktop"
+        }
+    ],
+    "handle_links": "preferred",
+    "launch_handler": {
+        "client_mode": "navigate-existing"
+    }
+}
