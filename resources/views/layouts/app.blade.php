@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'NEODATA') }}</title>
+    <title>NEODATA</title>
 
     <!-- PWA Meta & Manifest -->
     <link rel="manifest" href="{{ asset('manifest.json') }}">
